@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="04082020", # the name that you will install via pip
-    version="2.0",
+    name="04082020634", # the name that you will install via pip
+    version="3.0",
     author="Ekram Ahmed",
     author_email="ekramullahzaki@gmail.com",
     description="Converter",
