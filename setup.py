@@ -6,8 +6,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="assignmentekram", # the name that you will install via pip
-    version="4.0",
+    name="assignmentekramagain", # the name that you will install via pip
+    version="5.1",
     author="Ekram Ahmed",
     author_email="ekramullahzaki@gmail.com",
     description="Converter",
