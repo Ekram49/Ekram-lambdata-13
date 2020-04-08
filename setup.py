@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="assignment_1_1", # the name that you will install via pip
+    name="assignment_1_1!!!!!!!!!", # the name that you will install via pip
     version="1.1",
     author="Ekram Ahmed",
     author_email="ekramullahzaki@gmail.com",
