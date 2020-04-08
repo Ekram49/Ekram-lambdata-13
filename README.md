@@ -5,7 +5,7 @@ This multiplies any given number by 100
 ## Installation
 
 ```sh
-pip install _________ # todo: get address frompipy and update this line
+pip install -i https://test.pypi.org/simple/ Ekram-lambdata-13==1.0 
 ```
 ## Usage
 
