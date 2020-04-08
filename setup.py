@@ -7,7 +7,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="assignment_1_1!!!!!!!!!", # the name that you will install via pip
-    version="1.1",
+    version="2.0",
     author="Ekram Ahmed",
     author_email="ekramullahzaki@gmail.com",
     description="Multiplies by 100",
