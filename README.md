@@ -1,18 +1,25 @@
 # Ekram-lambdata-13
 
-This multiplies any given number by 100
+State abbreviation -> Full Name and visa versa. FL -> Florida, etc. The second one is City abbreviation in Bangladesh.
 
 ## Installation
 
 ```sh
-pip install -i https://test.pypi.org/simple/ Ekram-lambdata-13==1.0 
+pip install  
 ```
 ## Usage
 
 ```py
-from my_lambdata.my_mod import enlarge
+from assignment_1_1.function_1_1 import convert_names
 
-print(enlarge(9)) #> 900
+full_df = convert_names(df)
+print(full_df.head())
+
+from assignment_1_2.function_1_2 import convert_names_bd
+
+
+full_df = convert_names(df)
+print(full_df.head())
 ```
 
 

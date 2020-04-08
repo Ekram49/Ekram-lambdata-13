@@ -6,11 +6,11 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(
-    name="assignment_1_1!!!!!!!!!", # the name that you will install via pip
+    name="04082020", # the name that you will install via pip
     version="2.0",
     author="Ekram Ahmed",
     author_email="ekramullahzaki@gmail.com",
-    description="Multiplies by 100",
+    description="Converter",
     long_description=long_description,
     long_description_content_type="text/markdown", # required if using a md file for long desc
     #license="MIT",
