@@ -1,5 +1,12 @@
 import pandas
 def convert_names_bd(my_df):
+    """
+    Creates a new column called "city_name" which has the corresponding city name.
+​
+    Params my_df (pandas.DataFrame) with with column called "abbrev" which has state abbrevs
+​
+    See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html
+    """
     df = my_df.copy()
     names_map = {
         "DHK": "Dhaka",

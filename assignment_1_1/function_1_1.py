@@ -1,6 +1,13 @@
 # my_lambdata/class2.py
 import pandas
 def convert_names(my_df):
+    """
+    Creates a new column called "state_name" which has the corresponding state name.
+​
+    Params my_df (pandas.DataFrame) with with column called "abbrev" which has state abbrevs
+​
+    See: https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.map.html
+    """
     df = my_df.copy()
     names_map = {
         "AL": "Alabama",
