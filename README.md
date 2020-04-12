@@ -7,6 +7,7 @@ State abbreviation -> Full Name and visa versa. FL -> Florida, etc. The second o
 ```sh
 pip install  
 ```
+
 ## Usage
 
 ```py
@@ -21,5 +22,3 @@ from assignment_1_2.function_1_2 import convert_names_bd
 full_df = convert_names(df)
 print(full_df.head())
 ```
-
-
